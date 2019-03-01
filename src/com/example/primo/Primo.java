@@ -23,7 +23,7 @@ public class Primo {
                 break;
             }
             else {
-                System.out.println("Inserisci il Cognome");
+                System.out.println("Inserisci il cognome");
                 String CognomeIns = input.next();
                 Nomi.aggiungiNome(NomeIns, CognomeIns);
             }
