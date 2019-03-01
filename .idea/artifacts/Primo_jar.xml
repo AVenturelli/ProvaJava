@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Primo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Primo_jar</output-path>
+    <root id="archive" name="Primo.jar">
+      <element id="module-output" name="Primo" />
+    </root>
+  </artifact>
+</component>
