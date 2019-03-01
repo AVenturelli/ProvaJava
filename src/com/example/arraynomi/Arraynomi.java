@@ -11,10 +11,10 @@ public class Arraynomi {
         numeroNomi = 0;
         NomiVari = new ArrayList<>(1);
     }
-    public void aggiungiNome(String x, String y)
+    public void aggiungiNome(String x, String y, int i)
     {
             NomiVari.add(numeroNomi,new Terzo());
-            NomiVari.get(numeroNomi).settaNome(x,y);
+            NomiVari.get(numeroNomi).settaNome(x,y,i);
         numeroNomi++;
     }
     public void print()

@@ -3,14 +3,16 @@ package com.terzo;
 public class Terzo {
         private String Nome;
         private String Cognome;
+        private int Età;
         public Terzo (){
                 Nome = "";
                 Cognome = "";
         }
-        public  void settaNome(String x, String y)
+        public  void settaNome(String x, String y, int a)
         {
                 Nome = x;
                 Cognome = y;
+                Età = a;
         }
         public void invertiNomi()
         {
@@ -23,6 +25,11 @@ public class Terzo {
         {
                 System.out.println("Nome:"+ Nome);
                 System.out.println("Cognome:"+Cognome);
+                if (Età != 0){
+                        System.out.println("Età:"+ Età);
+                }
+                System.out.println("\n");
+
         }
         public void set(Terzo x)
         {

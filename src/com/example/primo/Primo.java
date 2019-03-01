@@ -12,7 +12,7 @@ public class Primo {
         //uno.printStr();
 
         Arraynomi Nomi = new Arraynomi();
-        for (int i = 0; i<3; i++)
+        while(true)
         {
             System.out.println("Scrivi il nome o esci con la parola \"Fine\"");
             Scanner input = new Scanner(System.in);
@@ -25,7 +25,19 @@ public class Primo {
             else {
                 System.out.println("Inserisci il cognome");
                 String CognomeIns = input.next();
-                Nomi.aggiungiNome(NomeIns, CognomeIns);
+                System.out.println("Vuoi inserire l'età? Sì o No");
+                String Età = input.next();
+                int anni;
+                if(Età.equals("Sì") || Età.equals("Si") || Età.equals("si")|| Età.equals("SI") )
+                {
+                    System.out.println("Inserisci l'età");
+                    anni = input.nextInt();
+                }
+                else
+                {
+                    anni = 0;
+                }
+                Nomi.aggiungiNome(NomeIns, CognomeIns, anni);
             }
         }
         Nomi.print();
