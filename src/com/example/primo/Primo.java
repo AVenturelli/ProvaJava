@@ -14,7 +14,7 @@ public class Primo {
         Arraynomi Nomi = new Arraynomi();
         while(true)
         {
-            System.out.println("Scrivi il nome o esci con la parola \"Fine\"");
+            System.out.println("Scrivi il nome o chiudi il programma con la parola \"Fine\"");
             Scanner input = new Scanner(System.in);
             String NomeIns = input.next();
             String k = "Fine";
