@@ -7,6 +7,7 @@ public class Terzo {
         public Terzo (){
                 Nome = "";
                 Cognome = "";
+                Età = 0;
         }
         public  void settaNome(String x, String y, int a)
         {
